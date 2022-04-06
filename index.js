@@ -20,7 +20,7 @@ app.get("/api/courses/:id", (req, res) => {
 const port = process.env.PORT || 5000;
 console.log(process.env.PORT)
 
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log("listening on 5000")
 })
 
